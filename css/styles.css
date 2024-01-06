@@ -70,7 +70,8 @@ img {
 .header-navigation {
   display: flex;
   flex-grow: 1;
-}
+  align-items: center;
+  }
 
 .header-logo {
   color: #4d5ae5;
@@ -92,13 +93,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -171,6 +172,7 @@ img {
   padding: 16px 32px;
   margin: 0 auto;
   border: none;
+  min-width: 169px;
 }
 
 .hero-order-btn:hover,
@@ -251,6 +253,10 @@ img {
   margin-bottom: 32px;
 }
 
+.team-item-underimg{
+  padding: 32px 0 32px;
+}
+
 .team-item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -267,7 +273,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -294,7 +299,8 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
@@ -335,12 +341,13 @@ img {
 
 .footer {
   background: #2e2f42;
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -348,10 +355,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  
 }
 
 .footer-logo-part {
+  margin-bottom: 16px;
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
